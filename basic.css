@@ -1,0 +1,62 @@
+/* rest css */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+span,
+div,
+ul, ol, li,
+article,
+header,
+footer {
+    padding: 0;
+   margin:  0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    background-color: blue;
+}
+
+body {
+    background: #5f7bd7;
+    color: white;
+    height: 100%;
+}
+
+
+* {
+    border: 1px solid rgb(204, 191, 14);
+}
+
+html {
+    border: 1px solid yellow;
+    background-color: aqua;
+}
+
+body {
+    border: 1px solid green;
+    background-color: rgb(219, 74, 74);
+}
+
+span {
+    background-color: #5f7bd7;
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div {
+    background-color: #d75fb3;
+}

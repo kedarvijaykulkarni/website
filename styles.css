@@ -1,0 +1,86 @@
+/* rest css */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+span,
+div,
+ul, ol, li,
+article,
+header,
+footer {
+  padding: 0;
+  margin:  0;
+}
+
+/*
+    * {
+        border: 1px solid rgb(204, 191, 14);
+    }
+*/
+
+
+body {
+  background-color: rgb(36,36,40);
+  color:azure;
+  font-family: sans-serif;
+}
+
+header {
+  padding: 30px 5px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navigation {
+  list-style: none;
+}
+
+.navigation li {
+  display: inline-block;
+  padding: 5px 30px 0px 0px;
+}
+
+.navigation li a {
+  font-weight: 600;
+  color: #FFF;
+}
+
+.navigation li a:hover {
+  color: #b1b1b1;
+}
+
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.top-section .item {
+    float: left;
+    max-width: 500px;
+    min-width: 500px;
+}
+
+.search {
+    border: 0;
+    padding: 10px;
+    border-radius: 15px;
+    width: 350px;
+}
+
+.submit {
+    background-color: #ffdd95;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
